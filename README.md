@@ -1,6 +1,8 @@
 # Report
 
 !!note: this code is using python version 3.9. and to start the project, start the main file, and write ai in the console(or pvp for pvp)
+
+
 In the code, the minimax algorithm is used to determine the AI agent's moves. The algorithm searches through the tree, evaluating each node, and returning the score, that will determine the best_move based on it.
 The code also includes an alpha-beta pruning algorithm, which is used to speed up the minimax algorithm by reducing the number of nodes that need to be evaluated. Alpha-beta pruning works by eliminating nodes that are guaranteed to be worse than previously evaluated nodes.
 
