@@ -1,4 +1,29 @@
-# Report
+#Version Française
+
+#Rapport
+!!note: Ce code utilise la version 3.9 de Python. Pour démarrer le projet, lancez le fichier principal et saisissez "ai" dans la console (ou "pvp" pour le mode joueur contre joueur).
+
+Dans le code, l'algorithme minimax est utilisé pour déterminer les mouvements de l'agent IA. L'algorithme explore l'arbre, évalue chaque nœud et renvoie le score qui déterminera le meilleur mouvement en fonction de celui-ci. Le code inclut également un algorithme d'élagage alpha-bêta, utilisé pour accélérer l'algorithme minimax en réduisant le nombre de nœuds à évaluer. L'élagage alpha-bêta fonctionne en éliminant les nœuds qui sont garantis d'être pires que les nœuds déjà évalués.
+
+Classe Board
+La classe Board contient plusieurs fonctions utiles pour gérer le plateau de jeu. Le constructeur initialise un tableau numpy pour représenter le plateau vide et définit une variable pour suivre le nombre de cases marquées. La fonction final_state() vérifie les conditions de victoire sur le plateau et renvoie l'identité du joueur qui a gagné ou 0 si le jeu n'est pas encore terminé. La fonction unmark_sqr() supprime la marque d'une case donnée. La fonction get_CurrBoard() crée une nouvelle instance de Board avec le même état que la précédente. La fonction mark_sqr() marque une case donnée avec l'identité d'un joueur. La fonction empty_sqr() renvoie vrai si une case donnée est vide. La fonction get_empty_sqrs() renvoie une liste de coordonnées des cases vides sur le plateau. La fonction isfull() renvoie vrai si toutes les cases du plateau ont été marquées. La fonction isempty() renvoie vrai si aucune case n'a été marquée.
+
+Classe Game
+En utilisant Pygame, nous avons pu personnaliser notre interface en ajoutant des couleurs à notre plateau et en définissant les lignes à l'aide des fonctions : draw_fig() et show_lines().
+
+Classe Ai
+Contient l'algorithme minimax, qui est mis en œuvre en ajoutant l'élagage alpha-bêta pour améliorer les performances.
+
+
+
+
+
+
+
+
+#English Version
+
+#Report
 
 !!note: this code is using python version 3.9. and to start the project, start the main file, and write ai in the console(or pvp for pvp)
 
