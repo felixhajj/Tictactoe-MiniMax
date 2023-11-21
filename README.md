@@ -1,6 +1,7 @@
 #Version Française
 
 #Rapport
+
 !!note: Ce code utilise la version 3.9 de Python. Pour démarrer le projet, lancez le fichier principal et saisissez "ai" dans la console (ou "pvp" pour le mode joueur contre joueur).
 
 Dans le code, l'algorithme minimax est utilisé pour déterminer les mouvements de l'agent IA. L'algorithme explore l'arbre, évalue chaque nœud et renvoie le score qui déterminera le meilleur mouvement en fonction de celui-ci. Le code inclut également un algorithme d'élagage alpha-bêta, utilisé pour accélérer l'algorithme minimax en réduisant le nombre de nœuds à évaluer. L'élagage alpha-bêta fonctionne en éliminant les nœuds qui sont garantis d'être pires que les nœuds déjà évalués.
